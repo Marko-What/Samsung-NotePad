@@ -1,0 +1,354 @@
+	body {
+			background-color: black;
+			color:black;		
+		}
+		div#wrapper {
+			/*media queries later*/
+			width: 270px;
+			/*border:1px solid red;*/
+			margin:0 auto;
+			margin-top:25px;
+			color:black;
+			height:420px;
+			background-color: #330000;
+			overflow: auto;
+			border-radius: 15px;
+					
+		}
+		nav {
+			height:30px;
+			background-color:silver;
+			border-bottom:1px solid gray;	
+			margin:0 auto;	
+			width: 250px;
+			color:white;
+			background-color: #330000;
+		}
+		nav div#button{
+			margin:0 auto;
+			padding:10px;
+			
+			}
+		 div#belezka {
+			/*background-color: #ffcc00;*/
+			/*border:1px solid black;*/
+			margin:10px;
+			overflow:hidden;
+			height:75px;
+			/*height: auto;*/
+		    border-bottom-right-radius: 1em;
+			border-bottom-left-radius: 0.5em;
+			border-top-left-radius: 0.5em;
+			border-top-right-radius: 0.5em;
+			 box-shadow: 2px 1px 2px black;	
+			}
+			
+			div#belezka.default {
+				display:none!important;	
+			}
+
+
+
+	 div#wrapper  div#bele_Main {
+			
+			/*background-color:green;*/
+			border-bottom:1px solid black;
+			
+		}
+		
+		 div#wrapper div#belezka div#bele_Main {
+			
+			/*background-color:green;*/
+			border-bottom:1px solid black;
+			
+		}
+		div#bele_Main {
+			width:230px;
+			width: auto;	
+			height: 25px;		
+			font-size:5px;
+			background-color: inherit;
+			}
+
+		div#bele_Main div#button {
+			color:red;
+			float:left;
+			font-size:11px;
+			padding:5px;
+			/*background-color:black;*/
+			margin-top:5px;
+			background-image: url("pen.png");	
+			/*margin-left:5px;*/
+			/*padding:5px;*/
+		
+		}
+
+		div#bele_Main div#button_right-end {
+			float:right;
+			color:red;
+			
+			font-size:9px;
+			padding:5px;
+			
+			margin-top:5px;	
+		}
+		
+		 div#wrapper div#belezka div#bele_Main div#hour {
+			
+			float:left;
+			margin-top:5px;
+			margin-left:5px;
+			padding:5px;
+		}
+		
+		 div#wrapper div#belezka div#bele_Main div#date{
+		
+			float:left;
+			padding:5px;
+			padding-left:5px;
+			border:1px solid black;
+			margin-top:5px;
+			
+		}
+		 div#wrapper div#belezka div#bele_Main div#button_re {
+			float:left;
+			padding:5px;
+			padding-left:5px;
+			border:1px solid black;
+			margin-top:5px;	
+		}
+		
+		 div#wrapper div#belezka div#bele_Main div#button_right{
+			float:right;
+			color:red;
+			font-size: 9px;
+			margin-top:5px;
+			padding:5px;
+			}
+
+
+		div#content {
+				clear:both;
+				font-size:9px;
+				font-style:arial;
+				padding: 5px;
+				
+				/*background-color: inherit;	*/	
+		} 
+
+		div#belezka:hover {
+			border-radius: 8px;
+		}
+
+		div#wrapper div#belezka div#bele_Main textarea {
+					/*overflow:hidden;		*/
+			}
+
+		div#belezkaInput div#content {
+				/*background-color:yellow;	*/		
+			}	
+	
+	
+	
+	div#belezkaInput div#content {
+				clear:both;
+				font-size:9px;
+				font-style:arial;
+				height: auto;
+				border-bottom-right-radius:5px;
+				border-bottom-left-radius: 15px;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 15px;
+				box-shadow: 1px 3px 2px black;	
+		} 
+
+	div#belezkaInput div#bele_Main {
+			background-color: green;
+			width:230px;
+			width: auto;	
+			height: 35px;		
+			font-size:5px;
+			
+			}
+
+		 div#wrapper #belezkaInput div#bele_Main div#date {
+			
+			float:left;
+			
+			margin-left:5px;
+				
+			
+		}
+
+
+	 div#wrapper div#belezkaInput div#bele_Main div#date{
+		
+			float:left;
+			padding:5px;
+			padding-left:5px;
+			border:1px solid black;
+			margin-top:5px;
+			margin-right:40px;
+		}
+		
+		 div#wrapper div#belezkaInput div#bele_Main div#button_right{
+			float:right;
+			border:1px solid black;
+			margin-top:5px;
+			padding:5px;
+			}
+
+		 div#wrapper div#belezkaInput div#bele_Main div#hour{
+		
+			float:right;
+			padding:5px;
+			border:1px solid black;
+			margin-top:5px;
+		}
+
+
+	  div#belezka.height {
+			height: auto;		
+		}
+
+	div#fotBox {
+		width:230px;
+		margin:0 auto;	
+		padding:10px;
+		display:none;
+		height:30px; 
+	/*	border:1px solid green;*/
+		margin-bottom:10px;
+		
+		}
+
+div#fotBox div#purple:hover {
+		/*border:2px solid black;*/
+	}
+	div#fotBox div#yellow {
+			float:left;
+			width:25px;
+			height:25px;
+			background-color:yellow;
+			margin:5px;
+			margin-left:15px;
+		}
+	div#fotBox div#purple {
+			float:left;
+			width:25px;
+			height:25px;
+			background-color:purple;
+			margin:5px;
+			margin-left:15px;
+		}
+	div#fotBox div#blue {
+			float:left;
+			width:25px;
+			height:25px;
+			background-color:blue;
+			margin:5px;
+			margin-left:15px;
+		}
+	div#fotBox div#green {
+			float:left;
+			width:25px;
+			height:25px;
+			background-color:green;
+			margin:5px;	
+			margin-left:15px;	
+		}
+	div#fotBox div#orange {
+			float:left;
+			width:25px;
+			height:25px;
+			background-color:orange;
+			margin:5px;
+			margin-left:15px;
+		}
+	div#fotBox div#buttons {
+			width:220px;
+			font-weight:600;
+			font-size:8px;
+			font-weight:900;
+			font-size:sans-serif;
+			text-transform:uppercase;
+			text-align:center;
+		}
+
+	div#fotBox div#buttons div#preklici:hover {
+			border:2px solid black;
+			font-size:10px;
+	}
+	div#fotBox div#buttons div#shrani:hover {
+			border:2px solid black;
+			font-size:10px;
+	}
+	div#fotBox div#buttons div#shrani {
+		float:left;		
+		width:95px;
+		height: 10px;
+		background-color: red;	
+		border:1px solid black;
+		padding:5px;
+		}
+	div#fotBox div#buttons div#preklici {
+		float:right;		
+		width:95px;
+		height: 10px;
+		padding:5px;
+		background-color: green;	
+		border:1px solid black;	
+		} 
+
+	div#belezkaInput {
+		/*border:1px solid red;*/
+		margin:10px;
+		display: none;
+		
+		}
+
+	.rounded-corners {
+		border-radius: 5px;
+	}
+	div#belezkaInput textarea{
+			width:243px;
+			height: 320px;
+			overflow:auto;
+			border: none;
+		
+		}
+	div#belezkaInput div#content textarea {
+			background-color: inherit;	
+				
+		}
+	.red {
+			background-color:red;	
+		}
+	
+	.green {
+			background-color: green;		
+		}
+
+	.purple {
+			background-color:purple;	
+	}
+	
+	.blue {
+			background-color:blue;	
+	}
+
+	.orange {
+			background-color:orange;	
+	}
+	.yellow {
+			background-color:yellow;	
+	}
+
+
+
+		div#belezka img {
+			width:10px;
+			height:auto;	
+	}
+		
+	
