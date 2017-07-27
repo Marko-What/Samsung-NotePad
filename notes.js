@@ -51,8 +51,6 @@
 		});
 
 
-		
-
 		$('div#fotBox div#belezkaItemButton.preklici').click(function(){
 				$('div#belezkaInput').css("display","none");
 				$('div#belezka').css("display","block");
